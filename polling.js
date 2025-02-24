@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const chatroomId = '67b9c2b30a5e4d5b3e1752ba'; // Replace with an actual chatroom ID
+const chatroomId = '67ba1373ae448f7ed3d26fa5'; // Replace with an actual chatroom ID
 let lastFetched = null;
 
 async function pollMessages() {
@@ -34,4 +34,4 @@ async function pollMessages() {
 }
 
 // Poll every 5 seconds
-setInterval(pollMessages, 5000);
+setInterval(pollMessages, 1000);
